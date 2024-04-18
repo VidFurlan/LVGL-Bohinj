@@ -1,8 +1,6 @@
 #include <SDL2/SDL.h>
 #include <src/core/lv_disp.h>
-
-#include "lvgl.h"
-#include "demos/lv_demos.h"
+#include <src/misc/lv_area.h>
 
 #include "sdl/sdl.h"
 
@@ -41,8 +39,8 @@ int main()
 
     // Title
     lv_obj_t *label = lv_label_create(lv_scr_act());
-    lv_label_set_text(label, "Bohinj Waterfall");
-    lv_obj_align(label, LV_ALIGN_CENTER, 0, 0);
+    lv_label_set_text(label, "Bohinj WaterfallČ");
+    lv_obj_align(label, LV_ALIGN_TOP_MID, 0, 0);
     lv_obj_add_style(label, &style_default, LV_PART_MAIN);
 
     while(1)

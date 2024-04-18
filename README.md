@@ -12,4 +12,5 @@
 
 ## Resources
 - [LVGL Fonts](https://lvgl.io/tools/fontconverter)
+- [LVGL Image Fonts](https://docs.lvgl.io/master/others/imgfont.html)
 - [LVGL Project Template](https://github.com/ercanersoy/LVGL-Template)

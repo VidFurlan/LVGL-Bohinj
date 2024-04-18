@@ -16,6 +16,7 @@ include_directories(
 
 set(SOURCES
     src/main.cpp
+    src/imgfont_loader.cpp
 )
 
 set (FONTS

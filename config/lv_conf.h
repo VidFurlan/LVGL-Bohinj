@@ -672,7 +672,7 @@
 #define LV_USE_FRAGMENT 0
 
 /*1: Support using images as font in label or span widgets */
-#define LV_USE_IMGFONT 0
+#define LV_USE_IMGFONT 1
 #if LV_USE_IMGFONT
     /*Imgfont image file path maximum length*/
     #define LV_IMGFONT_PATH_MAX_LEN 64
